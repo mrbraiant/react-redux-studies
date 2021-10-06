@@ -1,7 +1,4 @@
-export const clickAction = (value) => {
-    /* console.log(value); */
-    return{
-        type: 'CLICK',
-        msg: value
-    }
-}
+import { clickAction } from "./clickAction";
+import { incrementAction, decrementAction } from "./CounterActions";
+
+export { clickAction, incrementAction, decrementAction};
